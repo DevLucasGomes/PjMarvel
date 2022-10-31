@@ -52,7 +52,7 @@ header h1:hover {
 }
 
 header nav {
-    min-height: 320px;
+    max-height: 320px;
     position: relative;
     margin: 20px;
     text-align: center;
