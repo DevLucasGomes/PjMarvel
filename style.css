@@ -105,22 +105,8 @@ main {
 }
 
 main > article {
-    width: 1000px;
     background-color: white;
-}
-
-main article > h1 {
-    text-align: center;
-}
-
-main article > h2 {
-    text-align: center;
-}
-
-main article > p {
-    text-align: justify;
-    padding: 5px;
-    text-indent: 10px;
+    max-width: 300px;
 }
 
 main article.box1 {
