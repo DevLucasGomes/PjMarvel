@@ -24,7 +24,6 @@ header {
     background-image: linear-gradient(to bottom, #5B0001, red, #5B0001);
     margin: 0px;
     padding: 40px 20px;
-    min-width: 320px;
 }
 
 h1#principal {
@@ -101,7 +100,8 @@ header nav a:hover {
 
 main {
     background-color: #5B0001;
-    height: 100%;
+    min-height: 320px;
+    max-height: 2000px;
 }
 
 main > article {
