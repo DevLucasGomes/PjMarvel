@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'bebas';
+    src: url(fontes/Bebas-Regular.otf) format('OpenType');
+
+}
+
+:root {
+    --fonte0: 'Bebas-Regular', sans-serif;
+}
+
+* {
+    margin: auto;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 320px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #5B0001, red, #5B0001);
+    margin: 0px;
+    padding: 40px 20px;
+}
+
+h1#principal {
+    border: 3px solid white;
+    font-family: var(--fonte0);
+    letter-spacing: -10px;
+    font-size: 70px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    position: relative;
+    width: 350px;
+    transition-duration: 0.5s;
+}
+
+header h1:hover {
+    padding: 5px;
+    top: -2px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 0.2s ease-in-out;
+}
+
+header nav {
+    position: relative;
+    margin: 20px;
+    text-align: center;
+}
+
+#nav1 {
+    position: relative;
+    left: -45px;
+}
+
+#nav2 {
+    position: relative;
+    left: -20px;
+}
+
+#nav3 {
+    position: relative;
+    left: 15px;
+}
+
+#nav4 {
+    position: relative;
+    left: 45px;
+}
+
+header nav a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    transition-duration: 0.5s;
+}
+
+header nav a:hover {
+    padding: 10px;
+    top: -1px;
+    box-shadow: 2px 2px 5px black;
+        transition: all .2s ease-out;
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #5B0001;
+    height: 100%;
+}
+
+main > article {
+    min-width: 320px;
+    width: 600px;
+    background-color: white;
+}
+
+main article > h1 {
+    text-align: center;
+}
+
+main article > h2 {
+    text-align: center;
+}
+
+main article > p {
+    text-align: justify;
+    padding: 5px;
+    text-indent: 10px;
+}
+
+main article.box1 {
+    background-image: url(imagens/);
+    left: -180px;
+    bottom: -50px;
+    line-height: 1.2em;
+    max-width: 150px;
+    max-height: 150px;
+    position: relative;
+    border: 2px solid black;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px 0px 0px 20px;
+    transition-duration: 0.5s;
+    box-decoration-break: slice;
+}
+
+main article.box1:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: all .2s ease-in-out;
+}
+
+main > article > img {
+    max-width: 350px;
+    position: relative;
+    top: -74px;
+    right: -90px;
+    transition-duration: 0.5s;
+}
+
+main > article > img:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all .2s ease-in-out;
+    transform: rotateY(180deg) translateX(-50px);
+}
+
+main article.box2 {
+    top: -114px;
+    right: -180px;
+    overflow: hidden ;
+    line-height: 1.2em;
+    max-width: 150px;
+    max-height: 150px;
+    position: relative;
+    border: 2px solid black;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 0px 20px 20px 0px;
+    flex-wrap: nowrap;
+}
+
+footer {
+    background-color: #5B0001;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+
+footer p a.link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+footer p a.link:hover {
+    color: gray;
+    text-decoration: underline;
+    top: -1px;
+}
