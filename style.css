@@ -105,7 +105,7 @@ main {
 }
 
 main > article {
-    width: 600px;
+    width: 1000px;
     background-color: white;
 }
 
@@ -128,7 +128,7 @@ main article.box1 {
     left: -180px;
     bottom: -50px;
     line-height: 1.2em;
-    max-width: 150px;
+    max-width: 300px;
     max-height: 150px;
     position: relative;
     border: 2px solid black;
@@ -147,7 +147,6 @@ main article.box1:hover {
 }
 
 main > article > img {
-    max-width: 350px;
     position: relative;
     top: -74px;
     right: -90px;
@@ -166,7 +165,7 @@ main article.box2 {
     right: -180px;
     overflow: hidden ;
     line-height: 1.2em;
-    max-width: 150px;
+    max-width: 300px;
     max-height: 150px;
     position: relative;
     border: 2px solid black;
@@ -178,7 +177,6 @@ main article.box2 {
 }
 
 footer {
-    min-width: 320px;
     background-color: #5B0001;
 }
 
